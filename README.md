@@ -1,7 +1,7 @@
 # OGMA Multidevice Emulator
 
 ## Purpose
-The purpose of this emulator (hardware and software) is to help the community develop and test software that interact with OpenOGMA astronomy equipment without having to spend money purchasing the actual equipment.
+The purpose of this emulator (hardware and software) is to help the community develop and test software that interacts with OpenOGMA astronomy equipment without having to spend money purchasing the actual equipment.
 
 This repository has been forked from the **Adafruit Feather RP2040 PCB** design.
 
@@ -12,7 +12,7 @@ This fork extends the Feather RP2040 by providing:
   - **Filter Wheel** (FW)
   - **Focuser** (FC)
   - **Rotator** (RT)
-- **OLED FeatherWing** display to show actions feedback in real time.
+- **OLED FeatherWing** display to show the command's feedback in real time.
 - **Open firmware** (TinyUSB + Arduino) that enumerates as a **USB CDC ACM device** (`ttyACM*`).
 
 This allows developers to test interoperability and astronomy drivers (INDI, ASCOM, Alpaca, etc.) and see the behavior simulation on the small OLED screen without owning the actual physical hardware.
@@ -20,7 +20,7 @@ This allows developers to test interoperability and astronomy drivers (INDI, ASC
 ## What's included
 
 - **Open hardware schematics**: This repo includes Adafruit’s original EagleCAD schematic and board files for the Feather RP2040, licensed CC BY-SA with modifications to improve the developer experience.
-- **Open firmware source code**: The `/firmware` folder contains the emulator firmware, licensed under GPLv3.
+- **Open firmware source code**: Contains the emulator firmware, licensed under GPLv3.
 - **Documentation**: This README describes how to use the device.
 
 ## USB Interface
@@ -35,13 +35,13 @@ $ lsusb
 
 ## How to use
 
-In theory, you should be able to flash any OpenOgma firmware on this device and use it to debug code without having to own the actual device.
+In theory, you should be able to flash any OpenOgma firmware on this device and use it to debug code without owning the actual device.
 
 ## Disclaimer
 
 This device is a work in progress.
 
-If you find any issue, or want to implement a functionality, please fork the repository and submit a pull request with your changes.
+If you find any issues or want to implement a functionality, please fork the repository and submit a pull request with your changes.
 
 ## Licence
 
@@ -51,7 +51,7 @@ Firmware and documentation created for the OGMA Emulator are licensed under GPLv
 
 ---
 
-***Note: The following text was included in the original README file and it is kept here as is:***
+***Note: The following text was included in the original README file, and it is kept here as is:***
 
 ## Adafruit-Feather-RP2040-PCB
 
